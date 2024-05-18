@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generic/ex3/AnimalHospitalMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/ex3/AnimalHospitalV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex3/AnimalHospitalMainV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +136,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715918985771</updated>
       <workItem from="1715918986838" duration="46000" />
-      <workItem from="1715919161720" duration="10018000" />
+      <workItem from="1715919161720" duration="11336000" />
     </task>
     <servers />
   </component>
