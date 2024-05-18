@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generic/ex3/AnimalHospitalMainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/ex3/AnimalHospitalV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex4/GenericMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex4/MethodMain1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/ex3/AnimalHospitalMainV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/ex3/AnimalHospitalMainV1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
       <recent name="generic.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnimalHospitalMainV3">
+  <component name="RunManager" selected="Application.MethodMain1">
     <configuration name="AnimalHospitalMainV0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generic.ex3.AnimalHospitalMainV0" />
       <module name="java_mid2" />
@@ -92,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generic.test.ex1.ContainerTest" />
+    <configuration name="AnimalMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generic.ex2.AnimalMain2" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generic.test.ex1.*" />
+          <option name="PATTERN" value="generic.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generic.test.ex2.PairTest" />
+    <configuration name="MethodMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generic.ex4.MethodMain1" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generic.test.ex2.*" />
+          <option name="PATTERN" value="generic.ex4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnimalHospitalMainV3" />
+        <item itemvalue="Application.MethodMain1" />
         <item itemvalue="Application.AnimalHospitalMainV1" />
         <item itemvalue="Application.AnimalHospitalMainV0" />
-        <item itemvalue="Application.PairTest" />
-        <item itemvalue="Application.ContainerTest" />
+        <item itemvalue="Application.AnimalMain2" />
+        <item itemvalue="Application.AnimalHospitalMainV3" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715918985771</updated>
       <workItem from="1715918986838" duration="46000" />
-      <workItem from="1715919161720" duration="12328000" />
+      <workItem from="1715919161720" duration="15322000" />
     </task>
     <servers />
   </component>

@@ -25,10 +25,9 @@ public class AnimalHospitalMainV1 {
         dogHospital.set(cat); // 매개변수 체크 실패 => 컴파일 오류가 발생하지 않음.
 
         //문제2 : 개 타입 반환 => 다운 캐스팅을 해야 함. / cast 오류 발생
-        //
         dogHospital.set(dog);
 //        dogHospital.set(cat); // ClassCastException 오류 발생
-        Dog dog1 = (Dog) dogHospital.bigger(new Dog("강아지2", 200));
+        Dog dog1 = (Dog) dogHospital.bigger(new Dog("강아지2", 200));//다운 캐스팅
         System.out.println("dog1 = " + dog1);
 
     }
