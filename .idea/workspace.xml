@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generic/ex3/AnimalHospitalMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex3/AnimalHospitalMainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex3/AnimalHospitalV3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +52,7 @@
       <recent name="generic.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnimalHospitalMainV1">
+  <component name="RunManager" selected="Application.AnimalHospitalMainV3">
     <configuration name="AnimalHospitalMainV0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generic.ex3.AnimalHospitalMainV0" />
       <module name="java_mid2" />
@@ -78,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generic.ex2.AnimalMain2" />
+    <configuration name="AnimalHospitalMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generic.ex3.AnimalHospitalMainV3" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generic.ex2.*" />
+          <option name="PATTERN" value="generic.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnimalHospitalMainV3" />
         <item itemvalue="Application.AnimalHospitalMainV1" />
         <item itemvalue="Application.AnimalHospitalMainV0" />
         <item itemvalue="Application.PairTest" />
         <item itemvalue="Application.ContainerTest" />
-        <item itemvalue="Application.AnimalMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +137,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715918985771</updated>
       <workItem from="1715918986838" duration="46000" />
-      <workItem from="1715919161720" duration="11336000" />
+      <workItem from="1715919161720" duration="12328000" />
     </task>
     <servers />
   </component>
