@@ -26,6 +26,5 @@ public class BoxMain3 {
 
         //타입 추론 : 생성하는 제네릭 타입 생략 가능
         GenericBox<Integer> integerBox2 = new GenericBox<>();
-
     }
 }

@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generic/ex1/BoxMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/ex1/GenericBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/ex1/BoxMain3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/ex1/BoxMain3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/ex1/GenericBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/ex1/GenericBox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BoxMain3">
+  <component name="RunManager" selected="Application.RawTypeMain">
     <configuration name="BoxMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generic.ex1.BoxMain1" />
       <module name="java_mid2" />
@@ -93,8 +93,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RawTypeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generic.ex1.RawTypeMain" />
+      <module name="java_mid2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generic.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RawTypeMain" />
         <item itemvalue="Application.BoxMain3" />
         <item itemvalue="Application.BoxMain2" />
         <item itemvalue="Application.BoxMain1" />
@@ -111,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715918985771</updated>
       <workItem from="1715918986838" duration="46000" />
-      <workItem from="1715919161720" duration="3371000" />
+      <workItem from="1715919161720" duration="4981000" />
     </task>
     <servers />
   </component>
