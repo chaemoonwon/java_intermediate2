@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generic/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/animal/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/animal/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/ex2/AnimalMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/ex2/AnimalMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/ex2/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ex1/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ex1/ContainerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ex2/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ex2/PairTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +39,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
@@ -50,7 +50,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AnimalMain2">
+  <component name="RunManager" selected="Application.PairTest">
     <configuration name="AnimalMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generic.ex2.AnimalMain1" />
       <module name="java_mid2" />
@@ -77,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoxMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generic.ex1.BoxMain2" />
+    <configuration name="ContainerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generic.test.ex1.ContainerTest" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generic.ex1.*" />
+          <option name="PATTERN" value="generic.test.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoxMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generic.ex1.BoxMain3" />
+    <configuration name="PairTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generic.test.ex2.PairTest" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generic.ex1.*" />
+          <option name="PATTERN" value="generic.test.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PairTest" />
+        <item itemvalue="Application.ContainerTest" />
         <item itemvalue="Application.AnimalMain2" />
         <item itemvalue="Application.AnimalMain1" />
         <item itemvalue="Application.RawTypeMain" />
-        <item itemvalue="Application.BoxMain3" />
-        <item itemvalue="Application.BoxMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715918985771</updated>
       <workItem from="1715918986838" duration="46000" />
-      <workItem from="1715919161720" duration="6231000" />
+      <workItem from="1715919161720" duration="7304000" />
     </task>
     <servers />
   </component>
