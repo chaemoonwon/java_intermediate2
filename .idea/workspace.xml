@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generic/ex5/EraserBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ex3/Shuttle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ex3/ShuttleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ex3/UnitPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ex3/UnitPrinterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ex3/UnitUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ex3/UnitUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ex3/unit/BioUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ex3/unit/Marine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ex3/unit/Zealot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ex3/unit/Zergling.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +60,13 @@
       <recent name="generic.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WildcardMain2">
-    <configuration name="MethodMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generic.ex4.MethodMain1" />
+  <component name="RunManager" selected="Application.ShuttleTest">
+    <configuration name="ShuttleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generic.test.ex3.ShuttleTest" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generic.ex4.*" />
+          <option name="PATTERN" value="generic.test.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generic.ex4.MethodMain2" />
+    <configuration name="UnitPrinterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generic.test.ex3.UnitPrinterTest" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generic.ex4.*" />
+          <option name="PATTERN" value="generic.test.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generic.ex4.MethodMain3" />
+    <configuration name="UnitUtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generic.test.ex3.UnitUtilTest" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generic.ex4.*" />
+          <option name="PATTERN" value="generic.test.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShuttleTest" />
+        <item itemvalue="Application.UnitPrinterTest" />
+        <item itemvalue="Application.UnitUtilTest" />
         <item itemvalue="Application.WildcardMain2" />
         <item itemvalue="Application.WildcardMain1" />
-        <item itemvalue="Application.MethodMain3" />
-        <item itemvalue="Application.MethodMain2" />
-        <item itemvalue="Application.MethodMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715918985771</updated>
       <workItem from="1715918986838" duration="46000" />
-      <workItem from="1715919161720" duration="26826000" />
+      <workItem from="1715919161720" duration="31367000" />
     </task>
     <servers />
   </component>
