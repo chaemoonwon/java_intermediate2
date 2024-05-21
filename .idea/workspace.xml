@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/array/MyArrayListV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/array/MyArrayListV2Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/array/MyArrayListV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/array/MyArrayListV3Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/array/MyArrayListV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/array/MyArrayListV2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
       <recent name="generic.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyArrayListV2Main">
+  <component name="RunManager" selected="Application.MyArrayListV3Main">
     <configuration name="ArrayMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.array.ArrayMain1" />
       <module name="java_mid2" />
@@ -105,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShuttleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generic.test.ex3.ShuttleTest" />
+    <configuration name="MyArrayListV3Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.array.MyArrayListV3Main" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generic.test.ex3.*" />
+          <option name="PATTERN" value="collection.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyArrayListV3Main" />
         <item itemvalue="Application.MyArrayListV2Main" />
         <item itemvalue="Application.MyArrayListV1Main" />
         <item itemvalue="Application.ArrayMain2" />
         <item itemvalue="Application.ArrayMain1" />
-        <item itemvalue="Application.ShuttleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715918985771</updated>
       <workItem from="1715918986838" duration="46000" />
-      <workItem from="1715919161720" duration="39866000" />
+      <workItem from="1715919161720" duration="42167000" />
     </task>
     <servers />
   </component>
