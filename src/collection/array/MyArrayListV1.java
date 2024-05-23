@@ -7,7 +7,7 @@ public class MyArrayListV1 {
     private static final int DEFAULT_CAPACITY = 5;
 
     private Object[] elementData;
-    private int size = 0;
+    private int size = 0;       //데이터를 입력할 때마다 값이 증가
 
     public MyArrayListV1() {
         elementData = new Object[DEFAULT_CAPACITY];
@@ -31,6 +31,7 @@ public class MyArrayListV1 {
         return elementData[index];
     }
 
+    //배열의 특정 위치에 값을 변경
     public Object set(int index, Object element) {
         Object oldValue = get(index);
         elementData[index] = element;       //값을 교체
@@ -49,8 +50,8 @@ public class MyArrayListV1 {
 
     public String toString() {
         //[1,2,3,null,null] //size=3
-        //[1,2,3]   // size=3
         return Arrays.toString(Arrays.copyOf(elementData, size)) +
                 " size=" + size + ", capacity=" + elementData.length;
+        //[1,2,3]   // size=3
     }
 }

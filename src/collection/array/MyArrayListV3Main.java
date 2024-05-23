@@ -20,11 +20,13 @@ public class MyArrayListV3Main {
         System.out.println(list);
 
         //삭제
-        Object removed1 = list.remove(4);
+        //마지막(4번째 인덱스)
+        Object removed1 = list.remove(4);   //Remove Last 0(1)
         System.out.println("remove1 = " + removed1);
         System.out.println(list);
 
-        Object removed2 = list.remove(0);
+        //0번째 인덱스
+        Object removed2 = list.remove(0);   //Remove First 0(n)
         System.out.println("removed2 = " + removed2);
         System.out.println(list);
 

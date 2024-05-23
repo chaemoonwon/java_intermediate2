@@ -21,6 +21,7 @@ public class MyArrayListV2 {
         return size;
     }
 
+    //마지막에 데이터 추가
     public void add(Object e) {
         //코드 추가
         if (size == elementData.length) {
@@ -33,6 +34,7 @@ public class MyArrayListV2 {
     }
 
     //코드 추가
+    //배열 크기 확장
     private void grow() {
         int oldCapacity = elementData.length;
         int newCapacity = oldCapacity * 2;      //2배 큰 새로운 배열을 생성
@@ -43,6 +45,8 @@ public class MyArrayListV2 {
 //        for (int i = 0; i < elementData.length; i++) {
 //            newArr[i] = elementData[i];
 //        }
+        // 새로운 배열을 참조(참조값 변경)
+//        elementData = newArr;
 
         // Arrays.copyOf(기존배열, 새로운길이)
         // 새로운 길이로 배열을 생성하고, 기존 배열의 값을 새로운 배열에 복사한다

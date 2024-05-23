@@ -2,18 +2,18 @@ package collection.array;
 
 import java.util.Arrays;
 
-public class MyArrayListV3 {
+public class MyArrayListV4<E> {
 
     private static final int DEFAULT_CAPACITY = 5;
 
     private Object[] elementData;
     private int size = 0;
 
-    public MyArrayListV3() {
+    public MyArrayListV4() {
         elementData = new Object[DEFAULT_CAPACITY];
     }
 
-    public MyArrayListV3(int initialCapacity) {
+    public MyArrayListV4(int initialCapacity) {
         elementData = new Object[initialCapacity];
     }
 
@@ -21,7 +21,15 @@ public class MyArrayListV3 {
         return size;
     }
 
-    public void add(Object e) {
+    // 타입을 String으로 추가했을 경우 제네릭을 사용하게 되면,
+    // 입력받을 수 있는 타입이 정해져 있는 경우에 컴파일 오류를 확인할 수 없으므로, 런타임 시에 예외가 발생됨.
+//    public void addBad(String s) {
+//        elementData[size] = s;
+//        size++;
+//    }
+
+
+    public void add(E e) {
         if (size == elementData.length) {
             grow();
         }
@@ -34,7 +42,7 @@ public class MyArrayListV3 {
 
     //코드 추가
     //앞에 데이터를 추가
-    public void add(int index, Object e) {
+    public void add(int index, E e) {
         if (size == elementData.length) {
             grow();
         }
@@ -48,7 +56,7 @@ public class MyArrayListV3 {
     //요소의 마지막 부터 index까지 오른쪽으로 데이터 밀기
     private void shiftRightFrom(int index) {
         for (int i = size; i > index; i--) {
-            elementData[i] = elementData[i-1];
+                elementData[i] = elementData[i-1];
         }
     }
 
@@ -70,21 +78,21 @@ public class MyArrayListV3 {
     }
 
     //값을 조회
-    public Object get(int index) {
-        return elementData[index];
+    public E get(int index) {
+        return (E) elementData[index];
     }
 
-    public Object set(int index, Object element) {
-        Object oldValue = get(index);
+    public E set(int index, E element) {
+        E oldValue = get(index);
         elementData[index] = element;       //값을 교체
         return oldValue;        //기존의 값 반환
     }
 
     //코드 추가
     //데이터 삭제
-    public Object remove(int index) {
+    public E remove(int index) {
         //해당 인덱스 위치의 값을 꺼내기
-        Object oldValue = get(index);
+        E oldValue = get(index);
         //데이터를 왼쪽으로 이동
         shiftLeftFrom(index);
 
@@ -102,7 +110,7 @@ public class MyArrayListV3 {
     }
 
     // 인덱스 조회
-    public int indexOf(Object e) {
+    public int indexOf(E e) {
         for (int i = 0; i < size; i++) {
             if (e.equals(elementData[i])) {
                 return i;
