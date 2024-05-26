@@ -6,6 +6,7 @@ public class NodeMain3 {
         first.next = new Node("B"); //x02
         first.next.next = new Node("C");    //x03
 
+        //생성하고 연결한 node의 toString()
         System.out.println(first);
 
         //모든 노드 탐색하기
@@ -42,17 +43,22 @@ public class NodeMain3 {
     }
 
     private static Node getLastNode(Node node) {
-        Node x = node;
-        while (x.next != null) {
-            x = x.next;
+        Node x = node;      // x01
+        while (x.next != null) {    //x02, x03
+//            System.out.println(x.next); //x02, x03
+//            System.out.println(x.item); //A, B
+            x = x.next;     // x02, x03
         }
+//        System.out.println(x.item);
         return x;
     }
 
     private static Node getNode(Node node, int index) {
-        Node x = node;
+        Node x = node;  //x01
         for (int i = 0; i <index; i++) {
-            x = x.next;
+            System.out.println(x.item);
+            System.out.println(x.next);
+            x = x.next; //i = 0, x02 / i = 1, x03
         }
         return x;
     }

@@ -24,14 +24,14 @@ public class Node {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        Node x = this;  //x01
+        Node x = this;  //x01 , x02, x03
         sb.append("[");
         while (x != null) {
-            sb.append(x.item);
+            sb.append(x.item);  //A , B , C
             if (x.next != null) {
-                sb.append("->");
+                sb.append("->"); //A -> B ->
             }
-            x = x.next;
+            x = x.next; //x02 , x03
         }
         sb.append("]");
         return sb.toString();
