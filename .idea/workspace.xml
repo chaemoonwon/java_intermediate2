@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/link/MyLinkedListV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/link/MyLinkedListV1Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/link/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/link/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/link/NodeMain3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/link/NodeMain3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,17 +48,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="collection.link" />
       <recent name="collection.array" />
       <recent name="generic.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyLinkedListV1Main">
-    <configuration name="ArrayMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.array.ArrayMain1" />
+  <component name="RunManager" selected="Application.MyLinkedListMainV3">
+    <configuration name="MyLinkedListMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.link.MyLinkedListMainV3" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.array.*" />
+          <option name="PATTERN" value="collection.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NodeMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.link.NodeMain1" />
+    <configuration name="MyLinkedListV2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.link.MyLinkedListV2Main" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyLinkedListMainV3" />
+        <item itemvalue="Application.MyLinkedListV2Main" />
         <item itemvalue="Application.MyLinkedListV1Main" />
         <item itemvalue="Application.NodeMain3" />
         <item itemvalue="Application.NodeMain2" />
-        <item itemvalue="Application.NodeMain1" />
-        <item itemvalue="Application.ArrayMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +139,8 @@
       <updated>1715918985771</updated>
       <workItem from="1715918986838" duration="46000" />
       <workItem from="1715919161720" duration="53343000" />
-      <workItem from="1716702352158" duration="8885000" />
+      <workItem from="1716702352158" duration="9521000" />
+      <workItem from="1716867848550" duration="6783000" />
     </task>
     <servers />
   </component>
