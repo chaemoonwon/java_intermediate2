@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/collection/list/BatchProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/list/BatchProcessorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/list/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/list/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/list/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/list/MyListPerformanceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -48,12 +55,26 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="collection.list" />
       <recent name="collection.link" />
       <recent name="collection.array" />
       <recent name="generic.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyLinkedListMainV3">
+  <component name="RunManager" selected="Application.MyListPerformanceTest">
+    <configuration name="BatchProcessorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.list.BatchProcessorMain" />
+      <module name="java_mid2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyLinkedListMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.link.MyLinkedListMainV3" />
       <module name="java_mid2" />
@@ -93,25 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NodeMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.link.NodeMain2" />
+    <configuration name="MyListPerformanceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.list.MyListPerformanceTest" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.link.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NodeMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.link.NodeMain3" />
-      <module name="java_mid2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.link.*" />
+          <option name="PATTERN" value="collection.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyListPerformanceTest" />
+        <item itemvalue="Application.BatchProcessorMain" />
         <item itemvalue="Application.MyLinkedListMainV3" />
         <item itemvalue="Application.MyLinkedListV2Main" />
         <item itemvalue="Application.MyLinkedListV1Main" />
-        <item itemvalue="Application.NodeMain3" />
-        <item itemvalue="Application.NodeMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +148,7 @@
       <workItem from="1715918986838" duration="46000" />
       <workItem from="1715919161720" duration="53343000" />
       <workItem from="1716702352158" duration="9521000" />
-      <workItem from="1716867848550" duration="6783000" />
+      <workItem from="1716867848550" duration="13889000" />
     </task>
     <servers />
   </component>
