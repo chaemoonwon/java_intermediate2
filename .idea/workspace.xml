@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/list/JavaListPerformanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/list/test/ex1/ArrayEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/list/test/ex1/ListEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/list/test/ex1/ListEx2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/list/MyListPerformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/list/MyListPerformanceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +72,13 @@
       <recent name="generic.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyListPerformanceTest">
-    <configuration name="BatchProcessorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.list.BatchProcessorMain" />
+  <component name="RunManager" selected="Application.ListEx2">
+    <configuration name="ArrayEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.list.test.ex1.ArrayEx1" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.list.*" />
+          <option name="PATTERN" value="collection.list.test.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedListMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.link.MyLinkedListMainV3" />
+    <configuration name="ListEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.list.test.ex1.ListEx1" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.link.*" />
+          <option name="PATTERN" value="collection.list.test.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedListV2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.link.MyLinkedListV2Main" />
+    <configuration name="ListEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.list.test.ex1.ListEx2" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.link.*" />
+          <option name="PATTERN" value="collection.list.test.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListEx2" />
+        <item itemvalue="Application.ListEx1" />
+        <item itemvalue="Application.ArrayEx1" />
         <item itemvalue="Application.MyListPerformanceTest" />
         <item itemvalue="Application.JavaListPerformanceTest" />
-        <item itemvalue="Application.BatchProcessorMain" />
-        <item itemvalue="Application.MyLinkedListMainV3" />
-        <item itemvalue="Application.MyLinkedListV2Main" />
       </list>
     </recent_temporary>
   </component>
@@ -158,11 +159,22 @@
       <workItem from="1715918986838" duration="46000" />
       <workItem from="1715919161720" duration="53343000" />
       <workItem from="1716702352158" duration="9521000" />
-      <workItem from="1716867848550" duration="18821000" />
+      <workItem from="1716867848550" duration="23076000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/collection/list/test/ex1/ListEx2.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
