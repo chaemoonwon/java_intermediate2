@@ -2,9 +2,9 @@ package collection.list;
 
 public interface MyList<E> {
 
-    int size();
+        int size();
 
-    void add(E e);
+        void add(E e);
 
     void add(int index, E e);
 

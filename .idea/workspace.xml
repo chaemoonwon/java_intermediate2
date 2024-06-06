@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/list/test/ex1/ArrayEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/list/test/ex1/ListEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/list/test/ex1/ListEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/list/test/ex1/ListEx2_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/list/test/ex1/ListEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/list/test/ex2/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/list/test/ex2/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/list/test/ex2/ShoppingCartMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/list/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/list/MyList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +30,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "chaemoonwon"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;chaemoonwon&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -65,6 +69,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="collection.list.test.ex2" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="collection.list" />
       <recent name="collection.link" />
@@ -72,35 +79,9 @@
       <recent name="generic.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListEx2">
+  <component name="RunManager" selected="Application.ShoppingCartMain">
     <configuration name="ArrayEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.list.test.ex1.ArrayEx1" />
-      <module name="java_mid2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.list.test.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaListPerformanceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.list.JavaListPerformanceTest" />
-      <module name="java_mid2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.list.test.ex1.ListEx1" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
@@ -125,12 +106,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyListPerformanceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.list.MyListPerformanceTest" />
+    <configuration name="ListEx2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.list.test.ex1.ListEx2_2" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.list.*" />
+          <option name="PATTERN" value="collection.list.test.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.list.test.ex1.ListEx3" />
+      <module name="java_mid2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.list.test.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.list.test.ex2.ShoppingCartMain" />
+      <module name="java_mid2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.list.test.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShoppingCartMain" />
+        <item itemvalue="Application.ListEx3" />
+        <item itemvalue="Application.ListEx2_2" />
         <item itemvalue="Application.ListEx2" />
-        <item itemvalue="Application.ListEx1" />
         <item itemvalue="Application.ArrayEx1" />
-        <item itemvalue="Application.MyListPerformanceTest" />
-        <item itemvalue="Application.JavaListPerformanceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +166,8 @@
       <workItem from="1715918986838" duration="46000" />
       <workItem from="1715919161720" duration="53343000" />
       <workItem from="1716702352158" duration="9521000" />
-      <workItem from="1716867848550" duration="23076000" />
+      <workItem from="1716867848550" duration="23355000" />
+      <workItem from="1717630704609" duration="4003000" />
     </task>
     <servers />
   </component>
