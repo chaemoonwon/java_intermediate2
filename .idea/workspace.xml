@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/set/HashStart3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/set/HashStart4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/set/HashStart5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +74,7 @@
       <recent name="generic.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashStart4">
+  <component name="RunManager" selected="Application.HashStart5">
     <configuration name="HashStart1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.set.HashStart1" />
       <module name="java_mid2" />
@@ -128,8 +127,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHashSetV0Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.MyHashSetV0Main" />
+    <configuration name="HashStart5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.set.HashStart5" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashStart5" />
         <item itemvalue="Application.HashStart4" />
         <item itemvalue="Application.HashStart3" />
         <item itemvalue="Application.HashStart2" />
         <item itemvalue="Application.HashStart1" />
-        <item itemvalue="Application.MyHashSetV0Main" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +162,7 @@
       <workItem from="1715919161720" duration="53343000" />
       <workItem from="1716702352158" duration="9521000" />
       <workItem from="1716867848550" duration="23355000" />
-      <workItem from="1717630704609" duration="9281000" />
+      <workItem from="1717630704609" duration="12109000" />
     </task>
     <servers />
   </component>
