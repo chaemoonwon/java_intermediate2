@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/set/HashStart5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/set/MyHashSetV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/set/MyHashSetV1Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/set/HashStart5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/set/HashStart5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,33 +76,7 @@
       <recent name="generic.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashStart5">
-    <configuration name="HashStart1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.HashStart1" />
-      <module name="java_mid2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.set.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashStart2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.HashStart2" />
-      <module name="java_mid2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.set.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MyHashSetV1Main">
     <configuration name="HashStart3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.set.HashStart3" />
       <module name="java_mid2" />
@@ -140,13 +116,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyHashSetV1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.set.MyHashSetV1Main" />
+      <module name="java_mid2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLinkedListMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.link.MyLinkedListMainV3" />
+      <module name="java_mid2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.link.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyHashSetV1Main" />
+        <item itemvalue="Application.MyLinkedListMainV3" />
         <item itemvalue="Application.HashStart5" />
         <item itemvalue="Application.HashStart4" />
         <item itemvalue="Application.HashStart3" />
-        <item itemvalue="Application.HashStart2" />
-        <item itemvalue="Application.HashStart1" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +164,8 @@
       <workItem from="1715919161720" duration="53343000" />
       <workItem from="1716702352158" duration="9521000" />
       <workItem from="1716867848550" duration="23355000" />
-      <workItem from="1717630704609" duration="12109000" />
+      <workItem from="1717630704609" duration="13231000" />
+      <workItem from="1717728823247" duration="4346000" />
     </task>
     <servers />
   </component>

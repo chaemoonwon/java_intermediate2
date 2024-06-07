@@ -43,6 +43,7 @@ public class HashStart5 {
         }
     }
 
+    //찾는 데이터 값이 있는지 확인하는 검색 기능
     //해시 충돌이 발생할 경우 성능은 O(n), 발생하지 않으면 O(1)
     private static boolean contain(LinkedList<Integer>[] buckets, int searchValue) {
         int hashIndex = hashIndex(searchValue);
