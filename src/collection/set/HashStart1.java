@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class HashStart1 {
     public static void main(String[] args) {
+        //입력: 1,2,5,8
+        //결과: [1,2,5,8]
         Integer[] inputArray = new Integer[4];
         inputArray[0] = 1;
         inputArray[1] = 2;
