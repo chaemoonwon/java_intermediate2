@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/set/MyHashSetV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/set/MyHashSetV2Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/set/MyHashSetV2Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/set/member/HashAndEqualsMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/set/member/MemberNoHashNoEq.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/set/JavaHashCodeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/set/JavaHashCodeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/set/MyHashSetV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/set/MyHashSetV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/set/MyHashSetV2Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/set/MyHashSetV2Main1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,26 +80,13 @@
       <recent name="generic.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyHashSetV2Main1">
-    <configuration name="HashStart4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.HashStart4" />
+  <component name="RunManager" selected="Application.HashAndEqualsMain1">
+    <configuration name="HashAndEqualsMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.set.member.HashAndEqualsMain1" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.set.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashStart5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.HashStart5" />
-      <module name="java_mid2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.set.*" />
+          <option name="PATTERN" value="collection.set.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,6 +120,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyHashSetV2Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.set.MyHashSetV2Main2" />
+      <module name="java_mid2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringHashMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.set.StringHashMain" />
       <module name="java_mid2" />
@@ -144,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashAndEqualsMain1" />
+        <item itemvalue="Application.MyHashSetV2Main2" />
         <item itemvalue="Application.MyHashSetV2Main1" />
         <item itemvalue="Application.JavaHashCodeMain" />
         <item itemvalue="Application.StringHashMain" />
-        <item itemvalue="Application.HashStart5" />
-        <item itemvalue="Application.HashStart4" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +171,7 @@
       <workItem from="1717630704609" duration="13231000" />
       <workItem from="1717728823247" duration="7410000" />
       <workItem from="1718073660234" duration="738000" />
-      <workItem from="1718076397887" duration="7229000" />
+      <workItem from="1718076397887" duration="16874000" />
     </task>
     <servers />
   </component>

@@ -24,7 +24,7 @@ public class MyHashSetV2 {
         initBuckets();
     }
 
-    private void initBuckets() {
+        private void initBuckets() {
         buckets = new LinkedList[capacity];
         for (int i = 0; i < capacity; i++) {
             //buckets 배열 안에 LinkedList를 생성

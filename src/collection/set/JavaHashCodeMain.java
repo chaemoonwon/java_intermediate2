@@ -7,8 +7,11 @@ public class JavaHashCodeMain {
         //Object의 기본 HashCode는 객체의 참조값을 기반으로 생성
         Object obj1 = new Object();
         Object obj2 = new Object();
+        //Object에서 제공하는 hashCode => 객체의 참조값을 hashCode로 사용
         System.out.println("obj1.hashCode() = " + obj1.hashCode());
         System.out.println("obj2.hashCode() = " + obj2.hashCode());
+
+        //Object에서 제공하는 hashCode를 16진수로 바꿔서 출력함
         System.out.println(Integer.toHexString(obj1.hashCode()));   //객체의 해쉬코드(참조값)
         System.out.println("obj1 = " + obj1);
 
@@ -30,12 +33,27 @@ public class JavaHashCodeMain {
         Member member2 = new Member("idA");
 
         //동일성과 동등성
-        //equals, hashCode를 오버라이딩 하지 않은 경우
-        System.out.println("member1 == member2 = " +(member1 == member2));  //동일성
-        System.out.println("member1.equals(member2) = " +(member1.equals(member2)));    //동등성
+        //오버라이딩 하지 않은 경우 Object가 기본으로 제공하는 hashCode와 equals를 사용하게 되므로, 같은 메모리 상에 있지 않으면 false를 반환
+        System.out.println("member1 == member2 = " + (member1 == member2));  //동일성
+        //equals 메서드
+        //오버라이드 하지 않은 경우 => 객체의 진짜 주소값을 비교함으로 false,
+        //오버라이드 한 경우 => 객체의 필드값으로 비교함으로 필드 값이 같다면 true
+        System.out.println("member1.equals(member2) = " + (member1.equals(member2)));    //동등성 => id 값이 같기 때문에 true
 
-        //오버라이딩 한 경우 member1과 member2의 hashCode() 값은 같다.
-        System.out.println("member1.hashCode() = " +member1.hashCode());
-        System.out.println("member2.hashCode() = " +member2.hashCode());
+        System.out.println(member1);
+        System.out.println(member2);
+        //오버라이딩 한 경우 member1과 member2의 id의 해시코드 값을 가져오기 때문에 hashCode() 값은 같다.
+        System.out.println("member1.hashCode() = " + member1.hashCode());
+        System.out.println("member2.hashCode() = " + member2.hashCode());
+
+        //객체의 진짜 주소값
+        System.out.println("System.identityHashCode(member1) = " + System.identityHashCode(member1));
+        System.out.println("System.identityHashCode(member2) = " + System.identityHashCode(member2));
+
+//        String a1 = "a";
+//        String a2 = "a";
+//
+//        System.out.println("(a == b) = " + (a1 == a2));
+//        System.out.println("a1.equals(a2) = " + (a1.equals(a2)));
     }
 }
