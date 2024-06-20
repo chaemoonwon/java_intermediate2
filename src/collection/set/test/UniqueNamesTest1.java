@@ -16,7 +16,5 @@ public class UniqueNamesTest1 {
         for (Integer s : set) {
             System.out.println(s);
         }
-
-
     }
 }

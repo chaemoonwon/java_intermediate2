@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/set/javaset/JavaSetMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/set/test/UniqueNamesTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/set/test/UniqueNamesTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/set/test/UniqueNamesTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/map/MapMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/map/MapMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/set/test/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/set/test/RectangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/set/test/SetOperationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/set/test/UniqueNamesTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/set/test/UniqueNamesTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/set/test/UniqueNamesTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/set/test/UniqueNamesTest3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +71,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="collection.set.test" />
       <recent name="collection.list.test.ex2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -78,13 +82,13 @@
       <recent name="collection.array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaSetMain">
-    <configuration name="JavaSetMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.javaset.JavaSetMain" />
+  <component name="RunManager" selected="Application.MapMain3">
+    <configuration name="MapMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.map.MapMain1" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.set.javaset.*" />
+          <option name="PATTERN" value="collection.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHashSetV0Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.MyHashSetV0Main" />
+    <configuration name="MapMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.map.MapMain2" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.set.*" />
+          <option name="PATTERN" value="collection.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,8 +109,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueNamesTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.test.UniqueNamesTest1" />
+    <configuration name="MapMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.map.MapMain3" />
+      <module name="java_mid2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RectangleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.set.test.RectangleTest" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
@@ -118,21 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueNamesTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.test.UniqueNamesTest2" />
-      <module name="java_mid2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.set.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UniqueNamesTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.test.UniqueNamesTest3" />
+    <configuration name="SetOperationsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.set.test.SetOperationsTest" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
@@ -146,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JavaSetMain" />
-        <item itemvalue="Application.UniqueNamesTest3" />
-        <item itemvalue="Application.UniqueNamesTest2" />
-        <item itemvalue="Application.MyHashSetV0Main" />
-        <item itemvalue="Application.UniqueNamesTest1" />
+        <item itemvalue="Application.MapMain3" />
+        <item itemvalue="Application.MapMain2" />
+        <item itemvalue="Application.MapMain1" />
+        <item itemvalue="Application.RectangleTest" />
+        <item itemvalue="Application.SetOperationsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +173,7 @@
       <workItem from="1717630704609" duration="13231000" />
       <workItem from="1717728823247" duration="7410000" />
       <workItem from="1718073660234" duration="738000" />
-      <workItem from="1718076397887" duration="25430000" />
+      <workItem from="1718076397887" duration="35118000" />
     </task>
     <servers />
   </component>
