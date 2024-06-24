@@ -6,6 +6,7 @@ public class MapMain2 {
     public static void main(String[] args) {
         HashMap<String, Integer> studentMap = new HashMap<>();
 
+        // 학생 성적 데이터 추가
         studentMap.put("studentA", 90);
         System.out.println(studentMap);
 

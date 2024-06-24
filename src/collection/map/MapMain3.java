@@ -7,7 +7,7 @@ public class MapMain3 {
         HashMap<String, Integer> studentMap = new HashMap<>();
 
         //학생 성적 데이터 추가
-        studentMap.put("studentA", 90);
+        studentMap.put("studentA", 50);
         System.out.println(studentMap);
 
         //중복 학생 검증

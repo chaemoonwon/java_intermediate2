@@ -32,7 +32,7 @@ public class HashStart5 {
         int searchValue = 9;
         boolean contains = contain(buckets, searchValue);
         System.out.println("buckets.contains(" +searchValue+ ") = " + contains);
-    }
+}
 
     private static void add(LinkedList<Integer>[] buckets, int value) {
         int hashIndex = hashIndex(value);

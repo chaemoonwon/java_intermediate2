@@ -27,8 +27,8 @@ public class MapMain1 {
         System.out.println("KeySet 활용");
         Set<String> keySet = studentMap.keySet();
         for (String key : keySet) {
-            Integer value = studentMap.get(key);    //key에 대한 값들을 가져올 수 있음.
-            System.out.println("key = " +key + ", value = " + value);
+                Integer value = studentMap.get(key);    //key에 대한 값들을 가져올 수 있음.
+                System.out.println("key = " +key + ", value = " + value);
         }
 
         //entry는 key와 value를 저장하는 객체
