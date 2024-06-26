@@ -19,8 +19,6 @@ public class CommonKeyValueSum1 {
         System.out.println(map1);
         System.out.println(map2);
 
-
-        //나 스스로 문제 풀이
         //map1과 map2 공통의 합을 넣는 HashMap 생성
         HashMap<String, Integer> com = new HashMap<>();
 

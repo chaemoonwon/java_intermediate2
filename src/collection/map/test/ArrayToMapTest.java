@@ -7,7 +7,6 @@ public class ArrayToMapTest {
         //2차원 배열의 데이터를 Map<String, Integer>로 변경
         String[][] productArr = {{"Java", "10000"}, {"Spring", "20000"}, {"JPA", "30000"}};
 
-        //나 스스로 문제 풀이
         //주어진 배열로부터 Map 생성
         Map<String, Integer> productMap = new HashMap<>();
 
@@ -24,6 +23,6 @@ public class ArrayToMapTest {
         }
 
         // 문제 풀이(정답지)
-        
+
     }
 }
