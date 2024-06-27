@@ -27,6 +27,7 @@ public class CommonKeyValueSum1 {
         Set<String> mapSet2 = map2.keySet();
         //구한 key값의 교집합 구하기
         mapSet1.retainAll(mapSet2);
+        System.out.println(map1);
         for (String key : mapSet1) {
             //mqp1과 map2의 key의 value 값 꺼내기
             Integer m1Value = map1.get(key);
@@ -40,5 +41,14 @@ public class CommonKeyValueSum1 {
         System.out.println(com);
 
         // 문제 풀이(정답지)
+        // 1.
+//        for (String key : map1.keySet()) {
+//            if (map2.containsKey(key)) {
+//                com.put(key, map1.get(key) + map2.get(key));
+//            }
+//        }
+//
+//        System.out.println(com);
+
     }
 }

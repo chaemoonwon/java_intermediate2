@@ -13,8 +13,8 @@ public class WordFrequencyTest1 {
         int appleNum = 0;
 
         //String 분할
-        String[] split = text.split(" ");
-        for (String s : split) {
+        String[] words = text.split(" ");
+        for (String s : words) {
 //            System.out.println(s);
             if (s.equals("orange")) {
                 orangeNum++;
@@ -33,5 +33,15 @@ public class WordFrequencyTest1 {
         System.out.println(map);
 
         // 문제 풀이(정답지)
+//        for (String word : words) {
+//            Integer count = map.get(word);
+//            if (count == null) {
+//                count = 0;
+//            }
+//            count++;
+//            map.put(word, count);
+//        }
+
+//        System.out.println(map);
     }
 }

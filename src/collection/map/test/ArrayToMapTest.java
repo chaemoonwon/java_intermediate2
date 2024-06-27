@@ -23,6 +23,13 @@ public class ArrayToMapTest {
         }
 
         // 문제 풀이(정답지)
+//        for (String[] s : productArr) {
+//            productMap.put(s[0], Integer.valueOf(s[1]));
+//        }
+
+//        for (String key : productMap.keySet()) {
+//            System.out.println("제품: " + key + ", 가격: " + productMap.get(key));
+//        }
 
     }
 }
