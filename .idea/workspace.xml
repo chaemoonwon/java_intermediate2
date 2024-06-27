@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/map/test/CommonKeyValueSum2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/map/test/ItemPriceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/map/test/WordFrequencyTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/map/test/ArrayToMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/map/test/ArrayToMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/map/test/CommonKeyValueSum1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/map/test/CommonKeyValueSum1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/map/test/WordFrequencyTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/map/test/WordFrequencyTest1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +75,7 @@
       <recent name="collection.list" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ItemPriceTest">
+  <component name="RunManager" selected="Application.DictionaryTest">
     <configuration name="CommonKeyValueSum1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.map.test.CommonKeyValueSum1" />
       <module name="java_mid2" />
@@ -95,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommonKeyValueSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.map.test.CommonKeyValueSum2" />
+    <configuration name="DictionaryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.map.test.DictionaryTest" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
@@ -149,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DictionaryTest" />
         <item itemvalue="Application.ItemPriceTest" />
         <item itemvalue="Application.WordFrequencyTest2" />
         <item itemvalue="Application.WordFrequencyTest1" />
         <item itemvalue="Application.CommonKeyValueSum1" />
-        <item itemvalue="Application.CommonKeyValueSum2" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +167,7 @@
       <workItem from="1717728823247" duration="7410000" />
       <workItem from="1718073660234" duration="738000" />
       <workItem from="1718076397887" duration="38761000" />
-      <workItem from="1718940038202" duration="25596000" />
+      <workItem from="1718940038202" duration="28294000" />
     </task>
     <servers />
   </component>
