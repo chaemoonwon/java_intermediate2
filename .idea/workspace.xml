@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/collection/map/test/cart/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/map/test/cart/CartMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/map/test/cart/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/map/test/member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/map/test/member/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/map/test/member/MemberRepositoryMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +70,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="collection.map.test.cart" />
+      <recent name="collection.map.test.member" />
       <recent name="collection.set.test" />
       <recent name="collection.list.test.ex2" />
     </key>
@@ -75,13 +83,13 @@
       <recent name="collection.list" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DictionaryTest">
-    <configuration name="CommonKeyValueSum1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.map.test.CommonKeyValueSum1" />
+  <component name="RunManager" selected="Application.CartMain">
+    <configuration name="CartMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.map.test.cart.CartMain" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.map.test.*" />
+          <option name="PATTERN" value="collection.map.test.cart.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordFrequencyTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.map.test.WordFrequencyTest1" />
+    <configuration name="MapMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.map.MapMain3" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.map.test.*" />
+          <option name="PATTERN" value="collection.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordFrequencyTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.map.test.WordFrequencyTest2" />
+    <configuration name="MemberRepositoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.map.test.member.MemberRepositoryMain" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.map.test.*" />
+          <option name="PATTERN" value="collection.map.test.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CartMain" />
+        <item itemvalue="Application.MapMain3" />
+        <item itemvalue="Application.MemberRepositoryMain" />
         <item itemvalue="Application.DictionaryTest" />
         <item itemvalue="Application.ItemPriceTest" />
-        <item itemvalue="Application.WordFrequencyTest2" />
-        <item itemvalue="Application.WordFrequencyTest1" />
-        <item itemvalue="Application.CommonKeyValueSum1" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +175,7 @@
       <workItem from="1717728823247" duration="7410000" />
       <workItem from="1718073660234" duration="738000" />
       <workItem from="1718076397887" duration="38761000" />
-      <workItem from="1718940038202" duration="28294000" />
+      <workItem from="1718940038202" duration="37346000" />
     </task>
     <servers />
   </component>
