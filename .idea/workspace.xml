@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/compare/IdComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/compare/MyUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/compare/SortMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/compare/SortMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/compare/SortMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/iterable/JavaIterableMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/iterable/MyArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/iterable/MyArrayIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/iterable/MyArrayMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/map/test/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/map/test/cart/Cart.java" afterDir="false" />
-    </list>
+    <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,7 +167,7 @@
       <workItem from="1717728823247" duration="7410000" />
       <workItem from="1718073660234" duration="738000" />
       <workItem from="1718076397887" duration="38761000" />
-      <workItem from="1718940038202" duration="48877000" />
+      <workItem from="1718940038202" duration="49186000" />
     </task>
     <servers />
   </component>
