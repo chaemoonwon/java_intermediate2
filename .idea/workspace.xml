@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/map/test/cart/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/map/test/cart/CartMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/map/test/cart/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/map/test/member/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/map/test/member/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/map/test/member/MemberRepositoryMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/compare/IdComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/compare/MyUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/compare/SortMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/compare/SortMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/compare/SortMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/iterable/JavaIterableMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/iterable/MyArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/iterable/MyArrayIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/iterable/MyArrayMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/map/test/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/map/test/cart/Cart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,20 +80,20 @@
       <recent name="collection.list.test.ex2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="collection.compare" />
       <recent name="collection.map.test" />
       <recent name="collection.map" />
       <recent name="collection.set" />
       <recent name="collection.set.member" />
-      <recent name="collection.list" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CartMain">
-    <configuration name="CartMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.map.test.cart.CartMain" />
+  <component name="RunManager" selected="Application.SortMain3">
+    <configuration name="JavaIterableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.iterable.JavaIterableMain" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.map.test.cart.*" />
+          <option name="PATTERN" value="collection.iterable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DictionaryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.map.test.DictionaryTest" />
+    <configuration name="SortMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.compare.SortMain1" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.map.test.*" />
+          <option name="PATTERN" value="collection.compare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemPriceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.map.test.ItemPriceTest" />
+    <configuration name="SortMain2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.compare.SortMain2" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.map.test.*" />
+          <option name="PATTERN" value="collection.compare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.map.MapMain3" />
+    <configuration name="SortMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.compare.SortMain2" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.map.*" />
+          <option name="PATTERN" value="collection.compare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberRepositoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.map.test.member.MemberRepositoryMain" />
+    <configuration name="SortMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.compare.SortMain3" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.map.test.member.*" />
+          <option name="PATTERN" value="collection.compare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CartMain" />
-        <item itemvalue="Application.MapMain3" />
-        <item itemvalue="Application.MemberRepositoryMain" />
-        <item itemvalue="Application.DictionaryTest" />
-        <item itemvalue="Application.ItemPriceTest" />
+        <item itemvalue="Application.SortMain3" />
+        <item itemvalue="Application.SortMain2" />
+        <item itemvalue="Application.SortMain1" />
+        <item itemvalue="Application.SortMain2 (1)" />
+        <item itemvalue="Application.JavaIterableMain" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +179,7 @@
       <workItem from="1717728823247" duration="7410000" />
       <workItem from="1718073660234" duration="738000" />
       <workItem from="1718076397887" duration="38761000" />
-      <workItem from="1718940038202" duration="37346000" />
+      <workItem from="1718940038202" duration="48877000" />
     </task>
     <servers />
   </component>
