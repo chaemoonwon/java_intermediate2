@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="" />
+    <list default="true" id="f6991f5a-74dd-41cb-9b5f-fb6c3316650d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/collection/compare/SortMain4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/compare/SortMain5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/utils/CollectionSortMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/utils/EmptyListMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/utils/ImmutableMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/utils/OfMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/compare/MyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/compare/MyUser.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,13 +84,13 @@
       <recent name="collection.set.member" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortMain3">
-    <configuration name="JavaIterableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.iterable.JavaIterableMain" />
+  <component name="RunManager" selected="Application.EmptyListMain">
+    <configuration name="CollectionSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.utils.CollectionSortMain" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.iterable.*" />
+          <option name="PATTERN" value="collection.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.compare.SortMain1" />
+    <configuration name="EmptyListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.utils.EmptyListMain" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.compare.*" />
+          <option name="PATTERN" value="collection.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortMain2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.compare.SortMain2" />
+    <configuration name="ImmutableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.utils.ImmutableMain" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.compare.*" />
+          <option name="PATTERN" value="collection.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.compare.SortMain2" />
+    <configuration name="OfMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.utils.OfMain" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.compare.*" />
+          <option name="PATTERN" value="collection.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,8 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.compare.SortMain3" />
+    <configuration name="SortMain5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.compare.SortMain5" />
       <module name="java_mid2" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortMain3" />
-        <item itemvalue="Application.SortMain2" />
-        <item itemvalue="Application.SortMain1" />
-        <item itemvalue="Application.SortMain2 (1)" />
-        <item itemvalue="Application.JavaIterableMain" />
+        <item itemvalue="Application.EmptyListMain" />
+        <item itemvalue="Application.ImmutableMain" />
+        <item itemvalue="Application.OfMain" />
+        <item itemvalue="Application.CollectionSortMain" />
+        <item itemvalue="Application.SortMain5" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +176,8 @@
       <workItem from="1717728823247" duration="7410000" />
       <workItem from="1718073660234" duration="738000" />
       <workItem from="1718076397887" duration="38761000" />
-      <workItem from="1718940038202" duration="49186000" />
+      <workItem from="1718940038202" duration="50323000" />
+      <workItem from="1719890297028" duration="2987000" />
     </task>
     <servers />
   </component>
